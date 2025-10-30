@@ -1,0 +1,67 @@
+HPL Benchmark Results Summary
+==============================
+
+Results for 1 node(s):
+--------------------------
+Directory: hpl_1node_20251030_154305
+WR11C2R4      100000   256     8    16             297.09             2.2440e+03
+Energy Statistics:
+JobID           Elapsed ConsumedEnergy     MaxRSS  AllocCPUS 
+------------ ---------- -------------- ---------- ---------- 
+11381892       00:06:49                                  256 
+11381892.ba+   00:06:49              0                   256 
+11381892.ex+   00:06:49              0                   256 
+11381892.0     00:05:46        160.56K    757676K        256 
+---
+Calculated Metrics:
+Avg. Power (W):              464.04
+Energy Efficiency (GFLOPS/W): 4.83
+
+Results for 2 node(s):
+--------------------------
+Directory: hpl_2nodes_20251030_155240
+WR11C2R4      150000   256    16    16             491.20             4.5807e+03
+Energy Statistics:
+JobID           Elapsed ConsumedEnergy     MaxRSS  AllocCPUS 
+------------ ---------- -------------- ---------- ---------- 
+11382007       00:09:55                                  512 
+11382007.ba+   00:09:55              0                   256 
+11382007.ex+   00:09:55              0                   512 
+11382007.0     00:08:55        515.97K    876096K        512 
+---
+Calculated Metrics:
+Avg. Power (W):              964.42
+Energy Efficiency (GFLOPS/W): 4.74
+
+Results for 4 node(s):
+--------------------------
+Directory: hpl_4nodes_20251030_161203
+WR11C2R4      200000   256    16    32             629.84             8.4679e+03
+Energy Statistics:
+JobID           Elapsed ConsumedEnergy     MaxRSS  AllocCPUS 
+------------ ---------- -------------- ---------- ---------- 
+11382283       00:12:41                                 1024 
+11382283.ba+   00:12:41              0                   256 
+11382283.ex+   00:12:41              0                  1024 
+11382283.0     00:11:38        976.02K    800372K       1024 
+---
+Calculated Metrics:
+Avg. Power (W):              1398.30
+Energy Efficiency (GFLOPS/W): 6.05
+
+Results for 8 node(s):
+--------------------------
+Directory: hpl_8nodes_20251030_172811
+WR11C2R4      300000   256    32    32            1121.16             1.6055e+04
+Energy Statistics:
+JobID           Elapsed ConsumedEnergy     MaxRSS  AllocCPUS 
+------------ ---------- -------------- ---------- ---------- 
+11383568       00:20:51                                 2048 
+11383568.ba+   00:20:51              0                   256 
+11383568.ex+   00:20:51              0                  2048 
+11383568.0     00:19:49          4.53M    873148K       2048 
+---
+Calculated Metrics:
+Avg. Power (W):              3809.92
+Energy Efficiency (GFLOPS/W): 4.21
+
