@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=HPCG_8nodes
+#SBATCH --job-name=HPCG_8nodes_HYBRID
 #SBATCH --nodes=8
-#SBATCH --tasks-per-node=128
-#SBATCH --cpus-per-task=1
+#SBATCH --tasks-per-node=16
+#SBATCH --cpus-per-task=8
 #SBATCH --time=01:00:00
 #SBATCH --partition=standard
 #SBATCH --qos=standard
@@ -12,18 +12,20 @@ module load PrgEnv-gnu
 module load cray-libsci
 module load cray-mpich
 
-export OMP_NUM_THREADS=1
+export OMP_NUM_THREADS=8
+export OMP_PLACES=cores
+export OMP_PROC_BIND=close
 
 cd /work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/hpcg/hpcg-HPCG-release-3-1-0/build/bin
 
-RESULTS_DIR="/work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/results/hpcg_8nodes_$(date +%Y%m%d_%H%M%S)"
+RESULTS_DIR="/work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/results/hpcg_8nodes_hybrid_$(date +%Y%m%d_%H%M%S)"
 mkdir -p ${RESULTS_DIR}
 
-# Adjusted dimensions for 1024 MPI processes  
+# New (safer) problem size for 8 nodes
 cat > hpcg.dat << EOF
 HPCG benchmark input file
 Sandia National Laboratories; University of Tennessee, Knoxville
-192 192 192
+192 192 160
 60
 EOF
 
@@ -31,9 +33,11 @@ cp hpcg.dat ${RESULTS_DIR}/
 
 srun --distribution=block:block --hint=nomultithread ./xhpcg 2>&1 | tee ${RESULTS_DIR}/hpcg_output.txt
 
+# Move result files to results directory
 mv *.txt ${RESULTS_DIR}/ 2>/dev/null
 mv *.yaml ${RESULTS_DIR}/ 2>/dev/null
 
+# Add sleep 60 to prevent sacct errors
 echo "HPCG finished. Waiting 60s for Slurm database..."
 sleep 60
 
