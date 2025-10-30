@@ -3,9 +3,9 @@
 #SBATCH --nodes=2
 #SBATCH --tasks-per-node=128
 #SBATCH --cpus-per-task=1
-#SBATCH --time=00:20:00
+#SBATCH --time=01:00:00
 #SBATCH --partition=standard
-#SBATCH --qos=short
+#SBATCH --qos=standard
 #SBATCH --account=ta210-hex
 
 module load PrgEnv-gnu
