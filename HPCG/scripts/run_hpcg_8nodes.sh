@@ -1,8 +1,8 @@
 #!/bin/bash
-#SBATCH --job-name=HPCG_8nodes_HYBRID
+#SBATCH --job-name=HPCG_8nodes_HYBRID_32x4
 #SBATCH --nodes=8
-#SBATCH --tasks-per-node=16
-#SBATCH --cpus-per-task=8
+#SBATCH --tasks-per-node=32
+#SBATCH --cpus-per-task=4
 #SBATCH --time=01:00:00
 #SBATCH --partition=standard
 #SBATCH --qos=standard
@@ -12,16 +12,16 @@ module load PrgEnv-gnu
 module load cray-libsci
 module load cray-mpich
 
-export OMP_NUM_THREADS=8
+export OMP_NUM_THREADS=4
 export OMP_PLACES=cores
 export OMP_PROC_BIND=close
 
 cd /work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/hpcg/hpcg-HPCG-release-3-1-0/build/bin
 
-RESULTS_DIR="/work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/results/hpcg_8nodes_hybrid_$(date +%Y%m%d_%H%M%S)"
+RESULTS_DIR="/work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/results/hpcg_8nodes_hybrid_32x4_$(date +%Y%m%d_%H%M%S)"
 mkdir -p ${RESULTS_DIR}
 
-# New (safer) problem size for 8 nodes
+# Problem size for 8 nodes
 cat > hpcg.dat << EOF
 HPCG benchmark input file
 Sandia National Laboratories; University of Tennessee, Knoxville
@@ -41,6 +41,7 @@ mv *.yaml ${RESULTS_DIR}/ 2>/dev/null
 echo "HPCG finished. Waiting 60s for Slurm database..."
 sleep 60
 
+# --- THIS IS THE CORRECTED LINE ---
 sacct -j ${SLURM_JOB_ID} --format=JobID,Elapsed,ConsumedEnergy,MaxRSS,AllocCPUS > ${RESULTS_DIR}/energy_stats.txt
 
 echo "Results saved to: ${RESULTS_DIR}"
