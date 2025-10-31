@@ -1,0 +1,210 @@
+JobID           JobName  Partition    Account  AllocCPUS      State ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+11377038       HPL_test   standard  ta210-hex        256  COMPLETED      0:0 
+11377038.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377038.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11377038.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11377262      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11377262.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377262.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11377262.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11377567     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11377567.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377567.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11377567.0         xhpl             ta210-hex        512     FAILED      1:0 
+11377573     HPL_4nodes   standard  ta210-hex       1024  COMPLETED      0:0 
+11377573.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377573.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11377573.0         xhpl             ta210-hex       1024     FAILED      1:0 
+11377576     HPL_8nodes   standard  ta210-hex       2048  COMPLETED      0:0 
+11377576.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377576.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11377576.0         xhpl             ta210-hex       2048  COMPLETED      0:0 
+11377903     HPL_4nodes   standard  ta210-hex       1024  COMPLETED      0:0 
+11377903.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377903.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11377903.0         xhpl             ta210-hex       1024  COMPLETED      0:0 
+11377944     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11377944.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11377944.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11377944.0         xhpl             ta210-hex        512  COMPLETED      0:0 
+11378204      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11378204.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378204.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11378204.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11378367      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11378367.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378367.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11378367.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11378400     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11378400.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378400.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11378400.0         xhpl             ta210-hex        512  COMPLETED      0:0 
+11378660      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11378660.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378660.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11378660.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11378718     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11378718.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378718.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11378718.0         xhpl             ta210-hex        512  COMPLETED      0:0 
+11378838     HPL_4nodes   standard  ta210-hex       1024  COMPLETED      0:0 
+11378838.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378838.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11378838.0         xhpl             ta210-hex       1024  COMPLETED      0:0 
+11378874     HPL_8nodes   standard  ta210-hex       2048  COMPLETED      0:0 
+11378874.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11378874.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11378874.0         xhpl             ta210-hex       2048  COMPLETED      0:0 
+11379106      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11379106.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11379106.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11379106.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11379176     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11379176.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11379176.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11379176.0         xhpl             ta210-hex        512  COMPLETED      0:0 
+11379225     HPL_4nodes   standard  ta210-hex       1024  COMPLETED      0:0 
+11379225.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11379225.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11379225.0         xhpl             ta210-hex       1024  COMPLETED      0:0 
+11379255     HPL_8nodes   standard  ta210-hex       2048  COMPLETED      0:0 
+11379255.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11379255.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11379255.0         xhpl             ta210-hex       2048  COMPLETED      0:0 
+11381892      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11381892.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11381892.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11381892.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11382007     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11382007.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11382007.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11382007.0         xhpl             ta210-hex        512  COMPLETED      0:0 
+11382283     HPL_4nodes   standard  ta210-hex       1024  COMPLETED      0:0 
+11382283.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11382283.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11382283.0         xhpl             ta210-hex       1024  COMPLETED      0:0 
+11382532      HPCG_test   standard  ta210-hex        256  COMPLETED      0:0 
+11382532.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11382532.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11382532.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11382571     HPL_8nodes   standard  ta210-hex       2048    TIMEOUT      0:0 
+11382571.ba+      batch             ta210-hex        256  CANCELLED     0:15 
+11382571.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11382571.0         xhpl             ta210-hex       2048  COMPLETED      0:0 
+11382796     HPCG_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11382796.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11382796.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11382796.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11382903     HPCG_2nod+   standard  ta210-hex        512  COMPLETED      0:0 
+11382903.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11382903.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11382903.0        xhpcg             ta210-hex        512  CANCELLED      0:6 
+11382943     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11382943.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11382943.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11382943.0        xhpcg             ta210-hex       1024  CANCELLED      0:6 
+11383030     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11383030.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11383030.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11383030.0        xhpcg             ta210-hex       2048  CANCELLED      0:6 
+11383298     HPL_8nodes   standard  ta210-hex       2048 CANCELLED+      0:0 
+11383298.ba+      batch             ta210-hex        256  CANCELLED     0:15 
+11383298.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11383298.0         xhpl             ta210-hex       2048  CANCELLED     0:15 
+11383568     HPL_8nodes   standard  ta210-hex       2048  COMPLETED      0:0 
+11383568.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11383568.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11383568.0         xhpl             ta210-hex       2048  COMPLETED      0:0 
+11383783     HPCG_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11383783.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11383783.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11383783.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11383811     HPCG_test+   standard  ta210-hex        256  COMPLETED      0:0 
+11383811.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11383811.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11383811.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11383910     HPCG_2nod+   standard  ta210-hex        512  COMPLETED      0:0 
+11383910.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11383910.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11383910.0        xhpcg             ta210-hex        512  COMPLETED      0:0 
+11384011     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11384011.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384011.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11384011.0        xhpcg             ta210-hex       1024  COMPLETED      0:0 
+11384067     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11384067.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384067.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11384067.0        xhpcg             ta210-hex       2048  COMPLETED      0:0 
+11384107      HPL_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11384107.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384107.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11384107.0         xhpl             ta210-hex        256  COMPLETED      0:0 
+11384326     HPL_2nodes   standard  ta210-hex        512  COMPLETED      0:0 
+11384326.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384326.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11384326.0         xhpl             ta210-hex        512  COMPLETED      0:0 
+11384475     HPCG_1node   standard  ta210-hex        256  COMPLETED      0:0 
+11384475.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384475.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11384475.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11384510     HPCG_2nod+   standard  ta210-hex        512  COMPLETED      0:0 
+11384510.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384510.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11384510.0        xhpcg             ta210-hex        512 OUT_OF_ME+    0:125 
+11384569     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11384569.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384569.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11384569.0        xhpcg             ta210-hex       1024 OUT_OF_ME+    0:125 
+11384658     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11384658.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384658.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11384658.0        xhpcg             ta210-hex       2048 OUT_OF_ME+    0:125 
+11384671     HPL_4nodes   standard  ta210-hex       1024  COMPLETED      0:0 
+11384671.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11384671.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11384671.0         xhpl             ta210-hex       1024  COMPLETED      0:0 
+11385085     HPL_8nodes   standard  ta210-hex       2048  COMPLETED      0:0 
+11385085.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11385085.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11385085.0         xhpl             ta210-hex       2048  COMPLETED      0:0 
+11385862     HPCG_1nod+   standard  ta210-hex        256  COMPLETED      0:0 
+11385862.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11385862.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11385862.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11385956     HPCG_2nod+   standard  ta210-hex        512  COMPLETED      0:0 
+11385956.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11385956.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11385956.0        xhpcg             ta210-hex        512  COMPLETED      0:0 
+11386070     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11386070.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11386070.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11386070.0        xhpcg             ta210-hex       1024  COMPLETED      0:0 
+11386071     HPCG_4nod+   standard  ta210-hex       1024 CANCELLED+      0:0 
+11386071.ba+      batch             ta210-hex        256  CANCELLED     0:15 
+11386071.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11386071.0        xhpcg             ta210-hex       1024  CANCELLED     0:15 
+11386176     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11386176.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11386176.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11386176.0        xhpcg             ta210-hex       2048  COMPLETED      0:0 
+11386412     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11386412.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11386412.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11386412.0        xhpcg             ta210-hex       1024  COMPLETED      0:0 
+11386746     HPCG_1nod+   standard  ta210-hex        256  COMPLETED      0:0 
+11386746.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11386746.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11386746.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11386861     HPCG_2nod+   standard  ta210-hex        512  COMPLETED      0:0 
+11386861.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11386861.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11386861.0        xhpcg             ta210-hex        512  COMPLETED      0:0 
+11387022     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11387022.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11387022.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11387022.0        xhpcg             ta210-hex       1024  COMPLETED      0:0 
+11387141     HPCG_8nod+   standard  ta210-hex       2048    RUNNING      0:0 
+11387141.ba+      batch             ta210-hex        256    RUNNING      0:0 
+11387141.ex+     extern             ta210-hex       2048    RUNNING      0:0 
+11387141.0        xhpcg             ta210-hex       2048    RUNNING      0:0 
