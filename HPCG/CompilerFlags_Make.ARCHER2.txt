@@ -1,0 +1,121 @@
+ta210kyaw2@ln04:/work/ta210/ta210/ta210kyaw2/ciuk2025/green_hpc_challenge/hpcg/hpcg-HPCG-release-3-1-0/setup> cat Make.ARCHER2 
+
+#HEADER
+
+#  -- High Performance Conjugate Gradient (HPCG) Benchmark
+
+#     HPCG - 3.1 
+
+#
+
+# ----------------------------------------------------------------------
+
+
+
+# -*- Makefile -*-
+
+
+
+#######################################################################
+
+# HPCG Directory Structure / HPCG library
+
+#######################################################################
+
+
+
+TOPdir       = .
+
+SRCdir       = $(TOPdir)/src
+
+INCdir       = $(TOPdir)/src
+
+BINdir       = $(TOPdir)/bin
+
+
+
+# ----------------------------------------------------------------------
+
+# Platform identifier
+
+# ----------------------------------------------------------------------
+
+ARCH         = ARCHER2
+
+HPCG_ARCH    = $(ARCH)
+
+
+
+# ----------------------------------------------------------------------
+
+# HPCG includes, libraries, flags
+
+# ----------------------------------------------------------------------
+
+
+
+HPCG_INCLUDES = -I$(INCdir) -I$(INCdir)/$(ARCH)
+
+HPCG_LIBS     = 
+
+
+
+# ----------------------------------------------------------------------
+
+# Compiler/linker flags
+
+# ----------------------------------------------------------------------
+
+
+
+# Using Cray compiler wrapper which includes MPI
+
+CXX          = CC
+
+CXXFLAGS     = $(HPCG_INCLUDES) -O3 -march=znver2 -mtune=znver2 -ffast-math -ftree-vectorize -fopenmp -std=c++11
+
+
+
+LINKER       = $(CXX)
+
+LINKFLAGS    = $(CXXFLAGS)
+
+
+
+ARCHIVER     = ar
+
+ARFLAGS      = r
+
+RANLIB       = echo
+
+
+
+# ----------------------------------------------------------------------
+
+# HPCG specifics
+
+# ----------------------------------------------------------------------
+
+
+
+# Define HPCG_NO_MPI to disable MPI
+
+# Define HPCG_NO_OPENMP to disable OPENMP
+
+# Define HPCG_CONTIGUOUS_ARRAYS to have sparse matrix arrays long and contiguous
+
+# Define HPCG_DEBUG to enable debugging output
+
+# Define HPCG_DETAILED_DEBUG to enable very detailed debugging output
+
+
+
+# HPCG_OPTS = -DHPCG_NO_MPI
+
+# HPCG_OPTS = -DHPCG_NO_OPENMP
+
+HPCG_OPTS = 
+
+
+
+# ----------------------------------------------------------------------
