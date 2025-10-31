@@ -204,7 +204,35 @@ JobID           JobName  Partition    Account  AllocCPUS      State ExitCode
 11387022.ba+      batch             ta210-hex        256  COMPLETED      0:0 
 11387022.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
 11387022.0        xhpcg             ta210-hex       1024  COMPLETED      0:0 
-11387141     HPCG_8nod+   standard  ta210-hex       2048    RUNNING      0:0 
-11387141.ba+      batch             ta210-hex        256    RUNNING      0:0 
-11387141.ex+     extern             ta210-hex       2048    RUNNING      0:0 
-11387141.0        xhpcg             ta210-hex       2048    RUNNING      0:0 
+11387141     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11387141.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11387141.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11387141.0        xhpcg             ta210-hex       2048  COMPLETED      0:0 
+11387433     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11387433.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11387433.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11387433.0        xhpcg             ta210-hex       2048  COMPLETED      0:0 
+11387737     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11387737.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11387737.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11387737.0        xhpcg             ta210-hex       2048  COMPLETED      0:0 
+11388029      HPCG_test   standard  ta210-hex        256  COMPLETED      0:0 
+11388029.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11388029.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11388029.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11388032     HPCG_1nod+   standard  ta210-hex        256  COMPLETED      0:0 
+11388032.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11388032.ex+     extern             ta210-hex        256  COMPLETED      0:0 
+11388032.0        xhpcg             ta210-hex        256  COMPLETED      0:0 
+11388094     HPCG_2nod+   standard  ta210-hex        512  COMPLETED      0:0 
+11388094.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11388094.ex+     extern             ta210-hex        512  COMPLETED      0:0 
+11388094.0        xhpcg             ta210-hex        512  COMPLETED      0:0 
+11388186     HPCG_4nod+   standard  ta210-hex       1024  COMPLETED      0:0 
+11388186.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11388186.ex+     extern             ta210-hex       1024  COMPLETED      0:0 
+11388186.0        xhpcg             ta210-hex       1024  COMPLETED      0:0 
+11388262     HPCG_8nod+   standard  ta210-hex       2048  COMPLETED      0:0 
+11388262.ba+      batch             ta210-hex        256  COMPLETED      0:0 
+11388262.ex+     extern             ta210-hex       2048  COMPLETED      0:0 
+11388262.0        xhpcg             ta210-hex       2048  COMPLETED      0:0 
